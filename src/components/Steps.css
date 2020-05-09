@@ -1,0 +1,26 @@
+.count {
+  display: flex;
+  width: 96%;
+  justify-content: space-between;
+  margin: 27px auto 0;
+}
+
+.count .is-active {
+  opacity: 0.9;
+}
+.count svg {
+  width: 65px;
+  height: 70px;
+  opacity: 0.2;
+}
+.count svg tspan {
+  fill: #f8f8f8;
+}
+
+@media only screen and (max-width: 746px) {
+  .count svg {
+    width: 45px;
+    height: 50px;
+    margin-top: 35px;
+  }
+}
